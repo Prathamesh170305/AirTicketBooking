@@ -17,7 +17,7 @@ module.exports = {
         type: Sequelize.INTEGER,
         allowNull:false
       },
-      stauts: {
+      status: {
         type: Sequelize.ENUM,
         allowNull:false,
         defaultValue:"Inprocess",
